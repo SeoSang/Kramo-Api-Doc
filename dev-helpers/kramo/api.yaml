@@ -1,14 +1,14 @@
 swagger: '2.0'
 info:
-  description: 'Kramo 의 API 문서입니다. NextJS 를 기반으로 돌아가고, 작성 중에 있습니다.'
-  version: '0.0.1'
+  description: 'Kramo 의 API 문서입니다. Kramo Application 에 관한 내용은 https://github.com/Memo8-KoreaUniv/kramo/wiki 를 참고해주세요.'
+  version: '0.1.0'
   title: 'Kramo'
   contact:
     email: 'ddrrpg@naver.com'
   license:
     name: 'MIT'
     url: 'https://opensource.org/licenses/MIT'
-host: 'www.host미정'
+host: 'kramo.vercel.app'
 basePath: '/v0'
 tags:
   - name: 'admin'
@@ -25,8 +25,8 @@ tags:
     #   description: 'Github'
     #   url: 'https://github.com/Memo8-KoreaUniv/kramo'
 schemes:
-  - 'http'
-  # - 'https'
+  # - 'http'
+  - 'https'
 securityDefinitions:
   # petstore_auth:
   #   type: 'oauth2'
